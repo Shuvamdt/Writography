@@ -1,0 +1,72 @@
+.container-write{
+    padding: 50px 200px 50px 200px;
+}
+body{
+    background-color: #FCDEC0 !important;
+    color: #7D5A50 !important;
+}
+header,footer{
+    background-color: #E5B299;
+    color: #7D5A50 !important;
+}
+.logo{
+    padding: 20px;
+}
+.logo-font{
+    font-family: "Rouge Script", serif !important;
+    font-weight: 800 !important;
+    font-style: normal !important;
+    font-size: 40px !important;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.error-box{
+    border: 1px solid;
+	margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+    color: #D8000C;
+	background-color: #FFBABA; 
+}
+.rouge-script-regular {
+    font-family: "Rouge Script", serif !important;
+    font-weight: 800 !important;
+    font-style: normal !important;
+    font-size: 24px !important;
+}
+.headings{
+    font-size: 100px !important;
+    color: black !important;
+}
+.mea-culpa-regular {
+    font-family: "Birthstone", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px !important;
+}
+.btn{
+    background-color: #B4846C !important;
+}
+.color{
+    color: #7D5A50 !important;
+}
+.card-body{
+    background-color: #B4846C !important;
+    color: #200b06 !important;
+}
+.hover-black {
+    background-color:  #7D5A50 !important;
+    color: black !important; 
+    transition: background-color 0.3s ease, color 0.3s ease !important; 
+}
+
+.hover-black:hover {
+    background-color: black !important; 
+    color:  #7D5A50 !important; 
+}
